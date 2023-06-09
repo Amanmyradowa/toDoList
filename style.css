@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.toDoListCon{
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(255, 0, 106);
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.toDo_title{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.todo_list_top{
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 10px 10px 5px;
+  box-sizing: border-box;
+}
+svg{
+  cursor: pointer;
+}
+input[type="text"]{
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 80%;
+}
+/* input[type="checkbox"]{
+  cursor: pointer;
+  outline: none;
+  padding: 5px;
+} */
+label{
+  color: blue;
+  font-weight: 600;
+  cursor: pointer;
+}
+.todo_list_bottom{
+  width: 40%;
+  margin: 10px auto 0 auto;
+  padding: 15px 20px;
+  background-color: white;
+  box-sizing: border-box;
+}
+.notes{
+  display: flex;
+  padding: 15px 0;
+  border-bottom: 1px solid grey;
+}
+
+.text{
+  width: 40%;
+  padding: 5px 20px 10px 20px;
+  background: white;
+  border: none;
+  cursor: pointer;
+  text-align: end;
+}
+
+/* .note{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span{
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  background-color: red;
+} */
+
+.line{
+  text-decoration: line-through;
+}
